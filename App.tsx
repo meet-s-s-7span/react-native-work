@@ -87,6 +87,8 @@ import AsyncStorageExample from './AsyncStorageExample';
 import NativeModuleExample from './NativeModuleExample';
 import PermissionsExamples from './Permissions_Example';
 import CameraDesign from './CameraDesign';
+import MapExample from './MapExample';
+import PhotoPermission from './PhotoPermission';
 
 
 type SectionProps = PropsWithChildren<{
@@ -192,7 +194,7 @@ function App(): React.JSX.Element {
       {/* <MainStack/> */}
       {/* <HomeNAV/> */}
       {/* <DrawerNavExample/> */}
-      {/* <CustomNav/> */}
+      <CustomNav/>
       {/* <SectionListExample/> */}
       {/* <SectionLIstHistory/> */}
       {/* <WhatsAppChat/> */}
@@ -218,7 +220,9 @@ function App(): React.JSX.Element {
       {/* <AsyncStorageExample/> */}
       {/* <NativeModuleExample/> */}
       {/* <PermissionsExamples/> */}
-      <CameraDesign/>
+      {/* <CameraDesign/> */}
+      {/* <MapExample/> */}
+      {/* <PhotoPermission/> */}
     </View>
   );
 }
