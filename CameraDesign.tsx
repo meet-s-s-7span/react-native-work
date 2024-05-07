@@ -53,7 +53,7 @@ const CameraDesign = (props: CameraDesignProps) => {
                 const data = await cameraRef.current.takePictureAsync(options);
                 console.log(data.uri); // Here you get the image URI
             } catch (error) {
-                console.error('Failed  to capture image: ', error);
+                console.error('Failed to capture image: ', error);
             }
         }
     };
